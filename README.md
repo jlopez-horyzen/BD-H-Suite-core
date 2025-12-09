@@ -101,9 +101,9 @@ Esto reinicia únicamente el contenedor del servicio.
 
 Si necesitas un reinicio más profundo:
 ```bash
-docker compose stop BDHSuiteCore
+docker stop BDHSuiteCore
 
-docker compose start BDHSuiteCore
+docker start BDHSuiteCore
 ```
 
 ---
