@@ -89,6 +89,25 @@ Esto detiene el contenedor pero **no elimina los datos**, ya que permanecen en e
 
 ---
 
+---
+
+## 🔄 Cómo reiniciar el contenedor
+
+```bash
+docker compose restart BDHSuiteCore
+```
+
+Esto reinicia únicamente el contenedor del servicio.
+
+Si necesitas un reinicio más profundo:
+```bash
+docker compose stop BDHSuiteCore
+
+docker compose start BDHSuiteCore
+```
+
+---
+
 ## 🗑️ Cómo eliminar completamente datos y contenedor
 
 > ⚠️ Esto eliminará la base de datos completa.
